@@ -3,7 +3,7 @@ package com.myandroid.craneweather.db;
 import org.litepal.crud.DataSupport;
 
 /**
- * Created by 51581 on 2018/3/6.
+ * Created by Fengchendroid on 2018/3/6.
  */
 
 public class City extends DataSupport{
@@ -31,8 +31,7 @@ public class City extends DataSupport{
     public void setcityCode(int cityCode){
         this.cityCode=cityCode;
     }
-    public int getProvinceId(){
-        return getProvinceId();
+    public int getProvinceId(){ return provinceId;
     }
     public void setProvinceId(int provinceId){
         this.provinceId=provinceId;

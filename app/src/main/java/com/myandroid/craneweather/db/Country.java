@@ -3,7 +3,7 @@ package com.myandroid.craneweather.db;
 import org.litepal.crud.DataSupport;
 
 /**
- * Created by 51581 on 2018/3/6.
+ * Created by Fengchendroid on 2018/3/6.
  */
 
 public class Country extends DataSupport {
